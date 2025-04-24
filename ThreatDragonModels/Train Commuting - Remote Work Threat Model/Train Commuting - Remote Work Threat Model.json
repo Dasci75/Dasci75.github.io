@@ -42,6 +42,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -125,7 +126,6 @@
               ]
             },
             "id": "cf791d35-7b7f-44f4-a2c6-af2b4e72989c",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Train Employee",
@@ -176,6 +176,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -259,7 +260,6 @@
               ]
             },
             "id": "b5c13bf9-fe92-40f2-be27-fa0df37a6b44",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Ms Office Online",
@@ -307,13 +307,6 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 2
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -337,6 +330,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -480,8 +474,7 @@
                 "denialOfService": 1,
                 "elevationOfPrivilege": 0
               }
-            },
-            "zIndex": 3
+            }
           },
           {
             "position": {
@@ -504,6 +497,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -634,8 +628,7 @@
                 "denialOfService": 1,
                 "elevationOfPrivilege": 0
               }
-            },
-            "zIndex": 4
+            }
           },
           {
             "position": {
@@ -663,6 +656,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -746,7 +740,6 @@
               ]
             },
             "id": "fc6b3bb3-a4d1-47a2-b06c-aacdfd3a0320",
-            "zIndex": 5,
             "data": {
               "type": "tm.Store",
               "name": "Cloud Storage",
