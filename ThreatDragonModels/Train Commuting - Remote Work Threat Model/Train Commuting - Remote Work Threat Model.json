@@ -1,0 +1,30 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "Train Commuting - Remote Work Threat Model",
+    "owner": "Enes",
+    "description": "This threat model evaluates the risks of employees working remotely on trains. It includes collaboration on MS Office Online, VoIP communications, and the use of public Wi-Fi. STRIDE methodology is used to identify and mitigate threats.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Enes Tasci"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Train Work Environment",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
