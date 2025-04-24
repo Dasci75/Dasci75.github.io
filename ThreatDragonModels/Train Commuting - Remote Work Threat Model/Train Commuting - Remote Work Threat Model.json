@@ -20,11 +20,1070 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.4.1",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": 240,
+              "y": 260
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Train Employee"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "b9f00b03-0922-4140-9600-baad314ad5c8"
+                },
+                {
+                  "group": "right",
+                  "id": "8cfaf0ce-564e-4ca4-ae08-5d219b6413fb"
+                },
+                {
+                  "group": "bottom",
+                  "id": "37c9d6b7-d174-47e2-9f3a-be82f488d3aa"
+                },
+                {
+                  "group": "left",
+                  "id": "eec870b4-dd06-49f2-a891-a2813e7e3186"
+                }
+              ]
+            },
+            "id": "cf791d35-7b7f-44f4-a2c6-af2b4e72989c",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Train Employee",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "providesAuthentication": false,
+              "threats": [
+                {
+                  "id": "dc85754c-57f9-485f-b41d-aef85afa4749",
+                  "title": "Werknemer ontkent versturen van gevoelig bestand",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "Geen bewijs of log van de handeling, waardoor de werknemer alles kan ontkennen.",
+                  "mitigation": "Centrale logging en digitale handtekeningen gebruiken.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 500,
+              "y": 90
+            },
+            "size": {
+              "width": 140,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Ms Office Online"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "c33f8788-a02f-4071-827d-21a57245422a"
+                },
+                {
+                  "group": "right",
+                  "id": "dced86c8-3ad3-417c-a262-0bde63722c65"
+                },
+                {
+                  "group": "bottom",
+                  "id": "283fa4a9-7647-46fa-b752-320a81364e27"
+                },
+                {
+                  "group": "left",
+                  "id": "ceff456a-238e-47f5-83cb-1c7fb0a5aa59"
+                }
+              ]
+            },
+            "id": "b5c13bf9-fe92-40f2-be27-fa0df37a6b44",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Ms Office Online",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "0bc83482-d87d-490b-ab1c-cbc822258040",
+                  "title": "Exploiteren van kwetsbaarheden in MS Office Online",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "Aanvallers misbruiken macro’s of samenwerkingsfuncties om toegang te krijgen.",
+                  "mitigation": "Schakel risicovolle functies uit en houd software up-to-date.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                },
+                {
+                  "id": "86c87766-ce95-42af-b7a2-a12952edfdf5",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": " Gebruikers krijgen onbedoeld schrijfrechten door fout bij het delen.",
+                  "mitigation": "Beperk standaardrechten, gebruik RBAC, en geef gebruikers training.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 17,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 2
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
+          },
+          {
+            "position": {
+              "x": 550,
+              "y": 350
+            },
+            "size": {
+              "width": 140,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Phone call VoIP"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "c33f8788-a02f-4071-827d-21a57245422a"
+                },
+                {
+                  "group": "right",
+                  "id": "dced86c8-3ad3-417c-a262-0bde63722c65"
+                },
+                {
+                  "group": "bottom",
+                  "id": "283fa4a9-7647-46fa-b752-320a81364e27"
+                },
+                {
+                  "group": "left",
+                  "id": "ceff456a-238e-47f5-83cb-1c7fb0a5aa59"
+                }
+              ]
+            },
+            "id": "b6314779-636a-46fc-867b-f7fbe6e721ca",
+            "data": {
+              "type": "tm.Process",
+              "name": "Phone call VoIP",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "671617e9-0af8-4d3a-b53f-1e52cc96184c",
+                  "title": "VoIP caller ID spoofing",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Aanvallers doen zich voor als collega’s via gespoofte telefoonnummers om informatie los te krijgen.",
+                  "mitigation": "Veilige VoIP-systemen gebruiken met validatie van bellers.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                },
+                {
+                  "id": "86a5e811-cad7-4a12-a567-c9dad4d16192",
+                  "title": "Geen logs van gevoelige VoIP-gesprekken",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "Gebrek aan metadata maakt het onmogelijk om gesprekken te traceren.",
+                  "mitigation": "Log metadata en voer bewaartermijnen in.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                },
+                {
+                  "id": "9e79a70b-5723-4d4d-a5b9-4c108c89a1c0",
+                  "title": "VoIP-gesprekken worden geblokkeerd",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Een aanvaller verstoort de bandbreedte waardoor gesprekken worden onderbroken.",
+                  "mitigation": "Geef VoIP-verkeer voorrang met QoS-beleid.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 2,
+                "tampering": 0,
+                "repudiation": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 0
+              }
+            },
+            "zIndex": 3
+          },
+          {
+            "position": {
+              "x": -30,
+              "y": 245
+            },
+            "size": {
+              "width": 140,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Rogue Hotspot"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "c33f8788-a02f-4071-827d-21a57245422a"
+                },
+                {
+                  "group": "right",
+                  "id": "dced86c8-3ad3-417c-a262-0bde63722c65"
+                },
+                {
+                  "group": "bottom",
+                  "id": "283fa4a9-7647-46fa-b752-320a81364e27"
+                },
+                {
+                  "group": "left",
+                  "id": "ceff456a-238e-47f5-83cb-1c7fb0a5aa59"
+                }
+              ]
+            },
+            "id": "0896244e-6cb1-4b5e-92db-3dfaff5a0d3a",
+            "data": {
+              "type": "tm.Process",
+              "name": "Rogue Hotspot",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "146efd49-f8d2-46f7-b39c-6bc149bcc82c",
+                  "title": "Rogue Hotspot doet zich voor als betrouwbaar netwerk",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Een aanvaller zet een WiFi-hotspot op met de naam “TrainWiFi” om werknemers te misleiden.",
+                  "mitigation": "Medewerkers trainen om netwerken te verifiëren; gebruik van een VPN afdwingen.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                },
+                {
+                  "id": "a7ddfbf4-a371-4723-b032-3ebaca727f30",
+                  "title": "Rogue Hotspot verstoort netwerktoegang",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "De aanvaller blokkeert of de-authenticeert voortdurend verbindingen.",
+                  "mitigation": "Gebruik mobiele hotspots of LTE-verbinding als fallback.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 2,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 0
+              }
+            },
+            "zIndex": 4
+          },
+          {
+            "position": {
+              "x": 850,
+              "y": 105
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Cloud Storage"
+              },
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "a5a1d801-b3ce-4a02-87e4-654586191f35"
+                },
+                {
+                  "group": "right",
+                  "id": "5a728d71-70fc-4380-aa80-b9366d38e85c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "340ebd52-1875-4944-88d8-4cd8da71a75e"
+                },
+                {
+                  "group": "left",
+                  "id": "05d03473-359d-439f-aaa7-b22ffff8666e"
+                }
+              ]
+            },
+            "id": "fc6b3bb3-a4d1-47a2-b06c-aacdfd3a0320",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Store",
+              "name": "Cloud Storage",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "c728b728-5d1f-43c7-aa77-7543a373798b",
+                  "title": "Manipulatie van cloudgegevens",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Een kwaadwillende wijzigt bestanden die in de cloud zijn opgeslagen.",
+                  "mitigation": "Versiebeheer en toegangscontrole inschakelen, auditlogs bijhouden.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "ba5448fa-f4fb-467f-a049-8a45ef4a97d0",
+            "source": {
+              "x": 690,
+              "y": 480
+            },
+            "target": {
+              "x": 690,
+              "y": 480
+            },
+            "vertices": [
+              {
+                "x": 210,
+                "y": 380
+              },
+              {
+                "x": 320,
+                "y": 90
+              },
+              {
+                "x": 690,
+                "y": 110
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "288925e4-5c06-4125-aab2-44da8fc7e3fd",
+            "source": {
+              "x": 310,
+              "y": 320
+            },
+            "target": {
+              "cell": "b6314779-636a-46fc-867b-f7fbe6e721ca",
+              "port": "ceff456a-238e-47f5-83cb-1c7fb0a5aa59"
+            },
+            "vertices": [
+              {
+                "x": 460,
+                "y": 370
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "3cc8e24c-e987-4196-8056-cb3e5f2f989d",
+                  "title": "Uploaden van bestanden zonder versleuteling",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Bestanden worden zonder encryptie verzonden en opgeslagen.",
+                  "mitigation": "Dwing TLS af en versleutelde opslag.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "88e5eaac-7aeb-4f86-a112-186416f8fdea",
+            "source": {
+              "cell": "b5c13bf9-fe92-40f2-be27-fa0df37a6b44",
+              "port": "dced86c8-3ad3-417c-a262-0bde63722c65"
+            },
+            "target": {
+              "cell": "fc6b3bb3-a4d1-47a2-b06c-aacdfd3a0320",
+              "port": "05d03473-359d-439f-aaa7-b22ffff8666e"
+            },
+            "vertices": [
+              {
+                "x": 650,
+                "y": 130
+              },
+              {
+                "x": 820,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "59f01096-a293-43cf-a9bc-9457245aa192",
+                  "title": "Rogue Hotspot injecteert kwaadaardige JavaScript",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "De aanvaller wijzigt netwerkverkeer en injecteert schadelijke scripts.\n\n",
+                  "mitigation": "Gebruik maken van HTTPS en content security policies.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                },
+                {
+                  "id": "667bde1d-8fb8-4d70-af24-28a880b81dde",
+                  "title": "Gluren over de schouder in de trein",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Omstanders kunnen vertrouwelijke documenten meelezen.",
+                  "mitigation": "Privacy-filters op laptops en bewustzijnstraining voor medewerkers.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "eecbebcd-9d08-4e7b-a38e-4439879011c2",
+            "source": {
+              "cell": "cf791d35-7b7f-44f4-a2c6-af2b4e72989c",
+              "port": "b9f00b03-0922-4140-9600-baad314ad5c8"
+            },
+            "target": {
+              "cell": "b5c13bf9-fe92-40f2-be27-fa0df37a6b44",
+              "port": "ceff456a-238e-47f5-83cb-1c7fb0a5aa59"
+            },
+            "vertices": [
+              {
+                "x": 400,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "179a2d73-cd8e-4358-a412-4bea7037527a",
+            "source": {
+              "x": 110,
+              "y": 290
+            },
+            "target": {
+              "cell": "cf791d35-7b7f-44f4-a2c6-af2b4e72989c",
+              "port": "eec870b4-dd06-49f2-a891-a2813e7e3186"
+            },
+            "vertices": [
+              {
+                "x": 140,
+                "y": 245
+              }
+            ]
+          }
+        ]
       }
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 17
   }
 }
